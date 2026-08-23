@@ -51,9 +51,11 @@
   .fill-red { background: #ef4444; }
   .fill-amber { background: #f59e0b; }
 
-  /* Code Blocks */
-  pre { background: #0f172a; color: #f8fafc; padding: 2rem; border-radius: 12px; overflow-x: auto; font-size: 0.95em; box-shadow: inset 0 4px 6px rgba(0,0,0,0.5); margin: 2.5em 0; border: 1px solid #334155; }
-  code { font-family: 'Fira Code', Consolas, Monaco, monospace; }
+  /* Code Blocks - BULLETPROOFED */
+  .content pre { background-color: #0f172a !important; padding: 2rem !important; border-radius: 12px !important; overflow-x: auto !important; font-size: 0.95em !important; box-shadow: inset 0 4px 6px rgba(0,0,0,0.5) !important; margin: 2.5em 0 !important; border: 1px solid #334155 !important; }
+  .content pre code { color: #f8fafc !important; font-family: 'Fira Code', Consolas, Monaco, monospace !important; background: transparent !important; }
+  .content code { color: #1e3a8a; font-family: 'Fira Code', Consolas, Monaco, monospace; }
+  
   img { max-width: 100%; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); margin: 3rem auto; display: block; }
   figcaption { text-align: center; color: #64748b; font-size: 0.9em; font-style: italic; margin-top: -2rem; margin-bottom: 3rem; }
 </style>
